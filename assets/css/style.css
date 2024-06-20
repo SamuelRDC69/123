@@ -298,7 +298,7 @@ body.active { overflow: hidden; }
   background-color: var(--white);
   padding-block: 12px;
   z-index: 4;
-  font-color: var(--black-10)
+  font-color: var(--black_10)
 }
 
 .header.active {
@@ -307,7 +307,7 @@ body.active { overflow: hidden; }
   background-color:  var(--white);
   border-block-start: 1px solid var(--cultured);
   box-shadow: var(--shadow-1);
-  font-color: var(--black-10)
+  font-color: var(--black_10)
   animation: slideIn 0.25s var(--cubic-out) forwards;
 }
 
