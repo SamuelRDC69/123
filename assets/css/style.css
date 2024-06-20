@@ -302,7 +302,7 @@ body.active { overflow: hidden; }
 
 .header.active {
   position: fixed;
-  top: -66px;
+  top: -99px;
   background-color:  #220c21;
   border-block-start: 1px solid var(--cultured);
   box-shadow: var(--shadow-1);
