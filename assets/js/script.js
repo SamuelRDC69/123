@@ -95,37 +95,3 @@ const scrollReveal = function () {
 scrollReveal();
 
 addEventOnElem(window, "scroll", scrollReveal);
-
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const img = document.getElementById('main_photo');
-    const container = document.querySelector('.container');
-    let posX = 0, posY = 0;
-    let directionX = 1, directionY = 1;
-    const speed = 2;
-
-    function bounce() {
-      const containerWidth = container.offsetWidth;
-      const containerHeight = container.offsetHeight;
-      const imgWidth = img.offsetWidth;
-      const imgHeight = img.offsetHeight;
-
-      if (posX + imgWidth >= containerWidth || posX <= 0) {
-        directionX *= -1;
-      }
-      if (posY + imgHeight >= containerHeight || posY <= 0) {
-        directionY *= -1;
-      }
-
-      posX += speed * directionX;
-      posY += speed * directionY;
-
-      img.style.left = posX + 'px';
-      img.style.top = posY + 'px';
-
-      requestAnimationFrame(bounce);
-    }
-
-    bounce();
-  });
-</script>
