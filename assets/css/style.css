@@ -397,7 +397,7 @@ body.active { overflow: hidden; }
   #HERO SECTION
 \*-----------------------------------*/
 
-.hero { padding-block: 60px 60px; }
+.hero { padding-block: 60px 80px; }
 
 .hero-content { margin-block-end: 80px; }
 
