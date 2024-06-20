@@ -405,7 +405,9 @@ body.active { overflow: hidden; }
   margin-block: 25px 40px;
 }
 
-
+.hero-title {
+  margin-top: 30px; /* Adjust the value as needed */
+}
 
 
 
