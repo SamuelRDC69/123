@@ -409,6 +409,13 @@ body.active { overflow: hidden; }
   margin-top: 30px; /* Adjust the value as needed */
 }
 
+#main_photo {
+  position: absolute;
+  width: 100px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+}
+
+
 
 
 /*-----------------------------------*\
