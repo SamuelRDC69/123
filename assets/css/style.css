@@ -700,7 +700,7 @@ body.active { overflow: hidden; }
 
 .about-banner {
   text-align: center; /* Center-align contents */
-  padding-top: -90px; /* Adjust the top padding as needed */
+  padding-top: -140px; /* Adjust the top padding as needed */
 }
 
 .about-banner img {
