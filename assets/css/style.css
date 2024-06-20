@@ -1199,7 +1199,7 @@ address.footer-contact-link { max-width: 30ch; }
    * ABOUT, APP
    */
 
-  :is(.about, .app) .container { gap: 60px; }
+  :is(.about, .app) .container { gap: 30px; }
 
 
 
