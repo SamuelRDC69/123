@@ -734,6 +734,12 @@ body.active { overflow: hidden; }
   border-radius: 50px;
 }
 
+.gif-container {
+  display: flex;
+  justify-content: center;
+}
+
+
 
 
 
