@@ -698,7 +698,28 @@ body.active { overflow: hidden; }
 
 /* .about { background-color: var(--eerie-black-1); } */
 
-.about-banner { margin-block-end: 40px; }
+.about-banner {
+  text-align: center; /* Center-align contents */
+}
+
+.about-banner img {
+  display: block; /* Ensures the image behaves as a block element */
+  margin: 0 auto; /* Center the image horizontally */
+  max-width: 100%; /* Ensure the image does not exceed its container width */
+}
+
+.about-banner figcaption {
+  margin-top: 20px; /* Adjust as needed to create space between image and text */
+}
+
+.about-banner .h2 {
+  margin-top: 0; /* Remove default margin on h2 if not needed */
+}
+
+.about-banner .section-text {
+  margin-top: 10px; /* Adjust top margin of paragraph as needed */
+}
+
 
 
 
