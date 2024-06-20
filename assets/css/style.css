@@ -129,7 +129,7 @@ address { font-style: normal; }
 table { border-collapse: collapse; }
 
 html {
-  font-family: var(--ff-dm-"Pixelify Sans");
+  font-family: var(--ff-press-start);
   font-size: 10px;
   scroll-behavior: smooth;
 }
