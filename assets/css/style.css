@@ -303,7 +303,7 @@ body.active { overflow: hidden; }
 .header.active {
   position: fixed;
   top: -66px;
-  background-color:  var(--white);
+  background-color: var(--white);
   border-block-start: 1px solid var(--cultured);
   box-shadow: var(--shadow-1);
   animation: slideIn 0.25s var(--cubic-out) forwards;
