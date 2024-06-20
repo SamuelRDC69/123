@@ -709,7 +709,7 @@ body.active { overflow: hidden; }
 }
 
 .about-banner figcaption {
-  margin-top: 20px; /* Adjust as needed to create space between image and text */
+  margin-top: 10px; /* Adjust as needed to create space between image and text */
 }
 
 .about-banner .h2 {
