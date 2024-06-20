@@ -302,7 +302,7 @@ body.active { overflow: hidden; }
 
 .header.active {
   position: fixed;
-  top: -99px;
+  top: -66px;
   background-color:  #220c21;
   border-block-start: 1px solid var(--cultured);
   box-shadow: var(--shadow-1);
@@ -397,7 +397,7 @@ body.active { overflow: hidden; }
   #HERO SECTION
 \*-----------------------------------*/
 
-.hero { padding-block: 120px 120px; }
+.hero { padding-block: 80px 80px; }
 
 .hero-content { margin-block-end: 80px; }
 
