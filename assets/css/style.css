@@ -82,6 +82,36 @@
 }
 
 
+/*-----------------------------------*\
+  #Sections
+\*-----------------------------------*/
+
+.black-section {
+  background-color: black;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+  color: black;
+}
+
+.black-section a,
+.black-section h1,
+.black-section h2,
+.black-section h3,
+.black-section p {
+  color: white;
+}
+
+.white-section a,
+.white-section h1,
+.white-section h2,
+.white-section h3,
+.white-section p {
+  color: black;
+}
+
 
 
 
